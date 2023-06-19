@@ -82,7 +82,7 @@ export const EnDescuento = () => {
           <div className='flex flex-col gap-20 items-center'>
             <div className='h-[300px] '>
               <img
-                src={`../src/assets/Cars/${actualCar}${num}.png`}
+                src={`../src/assets/Cars/${actualCar}${num}.webp`}
                 alt='img car'
                 className='w-[500px]'
               />

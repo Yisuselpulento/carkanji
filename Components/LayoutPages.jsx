@@ -1,7 +1,7 @@
 export const LayoutPages = ({ children, text }) => {
   return (
     <div>
-      <div className="bg-[url('../src/assets/Cars/bg-models.jpg')] bg-no-repeat relative h-[296px] bg-cover">
+      <div className="bg-[url('../src/assets/Cars/bg-models.webp')] bg-no-repeat relative h-[296px] bg-cover">
 
         <div className='bg-white absolute opacity-90 w-full'>
 

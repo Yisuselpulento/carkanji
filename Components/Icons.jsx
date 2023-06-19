@@ -3,7 +3,7 @@ export const Icons = ({ img, parrafe, info }) => {
     <div className='flex gap-3 my-2'>
       <div className='bg-red-300 rounded-full p-2 bg-opacity-20 '>
         <img
-          src={`../src/assets/icons/icon${img}.png`}
+          src={`../src/assets/icons/icon${img}.webp`}
           width={200}
         />
       </div>

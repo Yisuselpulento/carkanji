@@ -48,7 +48,7 @@ export const Layout = () => {
           </button>
           <Link to='/'>
             <img
-              src='../src/assets/Cars/logo.png' alt='Imagen logo BR' width={60}
+              src='../src/assets/Cars/logo.webp' alt='Imagen logo BR' width={60}
             />
 
           </Link>

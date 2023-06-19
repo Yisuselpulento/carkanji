@@ -14,25 +14,25 @@ export const ComponTextimonio = () => {
           info='Estoy realmente molesta con la empresa de autos. Me siento decepcionada  por la falta de atención al cliente y la falta de transparencia.No encontre ningun auto con mi diseño.'
           name='Masa Aitaka'
           parrafe='Muy Mala'
-          photo='../src/assets/People/MasaAitaka.jpg'
+          photo='../src/assets/People/MasaAitaka.webp'
         />
         <TestCard
           info='Lo más impresionante es la calidad del automóvil en sí. Estoy verdaderamente impresionado con su rendimiento, comodidad y tecnología avanzada sin necesitar ninguna combinacion de teclas. '
           name='Jarl Cohnson'
           parrafe='Buena'
-          photo='../src/assets/People/JarlCohnson.jpg'
+          photo='../src/assets/People/JarlCohnson.webp'
         />
         <TestCard
           info=' Recientemente adquirí uno de sus vehículos y he tenido una experiencia increíblemente positiva en todos los aspectos.'
           name='Roretto'
           parrafe='Excelente'
-          photo='../src/assets/People/Roreto.jpg'
+          photo='../src/assets/People/Roreto.webp'
         />
         <TestCard
           info='Descubrí que la calidad de sus automóviles no cumplía con las expectativas que habían promocionado. A medida que investigaba más sobre la empresa, no puedo creer que ninguno vuele o tenga teletransporte. '
           name='Nimmy Jeutron'
           parrafe='Horrible'
-          photo='../src/assets/People/NimmyJeutron.jpg'
+          photo='../src/assets/People/NimmyJeutron.webp'
         />
 
       </div>

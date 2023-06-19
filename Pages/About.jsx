@@ -7,7 +7,7 @@ export const About = () => {
         <div className='md:p-32 p-7 md:flex my-10 gap-10 justify-center'>
           <div className='md:w-1/2 flex h-[600px]'>
             <img
-              src='../src/assets/icons/mecanico.jfif'
+              src='../src/assets/icons/mecanico.webp'
               alt="'imagen de guerrero"
               width={700}
             />
@@ -23,7 +23,7 @@ export const About = () => {
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
-                    src='../src/assets/icons/icon1.png'
+                    src='../src/assets/icons/icon1.webp'
                     width={80}
                   />
                 </div>
@@ -42,7 +42,7 @@ export const About = () => {
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
-                    src='../src/assets/icons/icon2.png'
+                    src='../src/assets/icons/icon2.webp'
                     width={80}
                   />
                 </div>
@@ -61,7 +61,7 @@ export const About = () => {
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
-                    src='../src/assets/icons/icon3.png'
+                    src='../src/assets/icons/icon3.webp'
                     width={80}
                   />
                 </div>

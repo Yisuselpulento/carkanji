@@ -1,13 +1,13 @@
 import useModal from '../hooks/useModal'
 
-export const AutosModelos = ({ num, format, nombre, precio, diesel }) => {
+export const AutosModelos = ({ num, nombre, precio, diesel }) => {
   const { modal, setModal } = useModal()
 
   return (
     <div className=' border rounded shadow-lg '>
       <div>
         <img
-          src={`../src/assets/Cars/Model${num}.${format}`} alt={`modelo ${num} de autos`}
+          src={`../src/assets/Cars/Model${num}.webp`} alt={`modelo ${num} de autos`}
           className='object-conver h-48 w-80'
         />
       </div>

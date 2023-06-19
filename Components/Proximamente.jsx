@@ -13,7 +13,7 @@ export const Proximamente = () => {
       <div className='flex
             justify-center'
       >
-        <img src='../src/assets/Cars/WallpaperCamaros.png' alt='' width={1200} />
+        <img src='../src/assets/Cars/WallpaperCamaros.webp' alt='' width={1200} />
       </div>
 
       <div className='p-16 my-16 md:flex gap-20 '>
