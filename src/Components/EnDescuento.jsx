@@ -47,8 +47,8 @@ export const EnDescuento = () => {
   }, [actualCar, num])
 
   return (
-    <div className='flex flex-col items-center'>
-      <div className='text-center p-10 md:my-16 bg-black opacity-90 w-full text-white'>
+    <div className='flex flex-col '>
+      <div className='text-center flex flex-col items-center  p-10 md:my-16 bg-black opacity-90 md:l  text-white'>
         <h2 className='font-bold text-2xl p-2'>Modelo de Vehiculos</h2>
         <h1 className='text-5xl font-bold p-2'>EN DESCUENTO</h1>
         <p className='text-gray-200 text-2xl p-2'>Elige una variedad de increibles vehiculos en descuento para tu siguiente viaje</p>
@@ -109,7 +109,7 @@ export const EnDescuento = () => {
           <div />
 
         </div>
-        <div className='flex flex-col mx-auto w-[365px]'>
+        <div className='flex flex-col mx-auto md:w-[365px] '>
           <div className='bg-red-600 text-center text-white text-3xl font-bold py-3 uppercase'>
             <h1>Info</h1>
           </div>

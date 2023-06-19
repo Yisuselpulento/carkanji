@@ -4,13 +4,13 @@ import Carss from '../assets/Cars/Carss.js'
 const Encabezado = () => {
   return (
     <div className='flex flex-wrap text-black text-opacity-80'>
-      <div className='p-16 md:w-1/2 '>
+      <div className='md:p-16 p-5 md:w-1/2 mt-28 md:mt-1'>
         <div className='mb-14 flex flex-col text-center'>
           <p className='font-bold text-3xl py-2'>Pide tu auto ahora</p>
           <h1 className=' py-2 uppercase font-bold text-5xl'>sientete <span className='text-red-600'>seguro </span>comprando con nosotros!</h1>
           <p className='text-gray-500 text-xl font-bold'>Compra el auto de tus sueños, precios increibles, modelos unicos y de todo tipo.</p>
         </div>
-        <div className='flex flex-wrap gap-4 items-center text-center md:flex-nowrap'>
+        <div className='flex flex-wrap gap-4 items-center text-center md:flex-nowrap '>
           <Link to='/models' className='bg-red-600 py-5 px-13 uppercase text-white font-bold hover:bg-red-800 cursor-pointer text-xl shadow-lg shadow-red-500 w-full flex gap-4 justify-center'>
             Elige uno
             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' className='w-7 h-7'>

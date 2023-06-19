@@ -5,19 +5,19 @@ import Carss from '../assets/Cars/Carss.js'
 export const Proximamente = () => {
   return (
     <div>
-      <div className='p-14 bg-black  bg-opacity-90 text-center'>
+      <div className='p-14 bg-black  bg-opacity-90 text-center flex flex-col items-center '>
         <h1 className='text-white font-bold text-5xl mb-4'>Proximamente a la venta</h1>
         <p className='text-red-500 font-bold text-4xl'>+56975259414</p>
 
       </div>
 
       <div className='flex
-            justify-center'
+           justify-center'
       >
         <img src={Carss.WallpaperCamaros} alt='' width={1200} />
       </div>
 
-      <div className='p-16 my-16 md:flex gap-20 '>
+      <div className='md:p-16 p-10 my-16 md:flex gap-20 '>
 
         <div className='md:w-1/2 flex flex-col gap-4 items-center text-center  mb-10'>
           <h3 className='text-2xl font-bold'>Porque escogernos</h3>

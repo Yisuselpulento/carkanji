@@ -1,13 +1,13 @@
 export const TestCard = ({ info, photo, parrafe, name }) => {
   return (
 
-    <div className='flex flex-col justify-between shadow-xl p-14 w-[550px] bg-white '>
+    <div className='flex flex-col justify-between shadow-xl p-14 md:w-[550px] bg-white '>
       <div>
         <p className='text-2xl mb-7'>{info}</p>
       </div>
 
       <div className='flex justify-between '>
-        <div className='flex  gap-5'>
+        <div className='md:flex  gap-5'>
           <div>
             <img className='rounded-full' src={photo} alt='' width={100} />
           </div>
