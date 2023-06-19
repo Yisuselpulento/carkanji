@@ -54,22 +54,22 @@ export const Layout = () => {
           </Link>
 
           <ul className={`${activeMenu ? 'hidden' : 'flex flex-col gap-10 p-5'} md:flex md:gap-5`}>
-            <Link onClick={() => setActiveMenu(true)} className='text-lg font-bold hover:text-red-600' to='/'>Home</Link>
+            <Link onClick={() => setActiveMenu(true)} className=' py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/'>Home</Link>
             <Link
               onClick={() => setActiveMenu(true)}
-              className='text-lg font-bold hover:text-red-600' to='/about'
+              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/about'
             >About</Link>
             <Link
               onClick={() => setActiveMenu(true)}
-              className='text-lg font-bold hover:text-red-600' to='/models'
+              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/models'
             >ModelsCar</Link>
             <Link
               onClick={() => setActiveMenu(true)}
-              className='text-lg font-bold hover:text-red-600' to='/testimonios'
+              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/testimonios'
             >Testimonios</Link>
             <Link
               onClick={() => setActiveMenu(true)}
-              className='text-lg font-bold hover:text-red-600' to='contact'
+              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='contact'
             >Contacto</Link>
 
           </ul>
