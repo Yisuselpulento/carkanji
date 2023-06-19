@@ -127,7 +127,7 @@ export const EnDescuento = () => {
           </div>
           <div className='flex border border-slate-800 text-center justify-between '>
             <h1 className=' text-xl py-3 px-8 border-slate-800'>Precio</h1>
-            <p className=' text-xl  py-3 px-8 border-slate-800'>{carSelect[0]?.precio}</p>
+            <p className=' text-xl  py-3 px-8 border-slate-800'>${carSelect[0]?.precio}</p>
           </div>
 
           <button
