@@ -33,7 +33,7 @@ const Encabezado = () => {
       </div>
 
       <div className='md:w-1/2 '>
-        <img src='../src/assets/Cars/CarIntro.webp' alt='Car Intro' width={2200} height={2000} />
+        <img src='../assets/Cars/CarIntro.webp' alt='Car Intro' width={2200} height={2000} />
 
       </div>
 

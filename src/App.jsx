@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { Home } from '../Pages/Home'
-import { About } from '../Pages/About'
-import { Contact } from '../Pages/Contact'
-import { Testimonios } from '../Pages/Testimonios'
-import { ModelsCar } from '../Pages/ModelsCar'
-import { Layout } from '../Layouts/Layout.jsx'
-import { ModalProvider } from '../context/modalProvider'
+import { Home } from './Pages/Home'
+import { About } from './Pages/About'
+import { Contact } from './Pages/Contact'
+import { Testimonios } from './Pages/Testimonios'
+import { ModelsCar } from './Pages/ModelsCar'
+import { Layout } from './Layouts/Layout.jsx'
+import { ModalProvider } from './context/modalProvider'
 
 export default function App () {
   return (
