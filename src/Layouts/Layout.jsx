@@ -4,6 +4,7 @@ import { Outlet, Link } from 'react-router-dom'
 import Modal from 'react-modal'
 import { TheModal } from '../Components/TheModal'
 import useModal from '../hooks/useModal'
+import Carss from '../assets/Cars/Carss.js'
 
 const customStyles = {
   content: {
@@ -48,7 +49,7 @@ export const Layout = () => {
           </button>
           <Link to='/'>
             <img
-              src='../src/assets/Cars/logo.webp' alt='Imagen logo BR' width={60}
+              src={Carss.logo} alt='Imagen logo BR' width={60}
             />
 
           </Link>

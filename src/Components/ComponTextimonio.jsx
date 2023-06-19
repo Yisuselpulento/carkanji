@@ -1,4 +1,5 @@
 import { TestCard } from './TestCard'
+import Peoplee from '../assets/People/Peoplee.js'
 
 export const ComponTextimonio = () => {
   return (
@@ -14,25 +15,25 @@ export const ComponTextimonio = () => {
           info='Estoy realmente molesta con la empresa de autos. Me siento decepcionada  por la falta de atención al cliente y la falta de transparencia.No encontre ningun auto con mi diseño.'
           name='Masa Aitaka'
           parrafe='Muy Mala'
-          photo='../src/assets/People/MasaAitaka.webp'
+          photo={Peoplee.MasaAitaka}
         />
         <TestCard
           info='Lo más impresionante es la calidad del automóvil en sí. Estoy verdaderamente impresionado con su rendimiento, comodidad y tecnología avanzada sin necesitar ninguna combinacion de teclas. '
           name='Jarl Cohnson'
           parrafe='Buena'
-          photo='../src/assets/People/JarlCohnson.webp'
+          photo={Peoplee.JarlCohnson}
         />
         <TestCard
           info=' Recientemente adquirí uno de sus vehículos y he tenido una experiencia increíblemente positiva en todos los aspectos.'
           name='Roretto'
           parrafe='Excelente'
-          photo='../src/assets/People/Roreto.webp'
+          photo={Peoplee.Roreto}
         />
         <TestCard
           info='Descubrí que la calidad de sus automóviles no cumplía con las expectativas que habían promocionado. A medida que investigaba más sobre la empresa, no puedo creer que ninguno vuele o tenga teletransporte. '
           name='Nimmy Jeutron'
           parrafe='Horrible'
-          photo='../src/assets/People/NimmyJeutron.webp'
+          photo={Peoplee.NimmyJeutron}
         />
 
       </div>

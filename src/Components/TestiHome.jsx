@@ -1,4 +1,5 @@
 import { TestCard } from './TestCard'
+import Peoplee from '../assets/People/Peoplee.js'
 
 export const TestiHome = () => {
   return (
@@ -14,13 +15,13 @@ export const TestiHome = () => {
           info='Estoy realmente molesta con la empresa de autos. Me siento decepcionada  por la falta de atención al cliente y la falta de transparencia. No encontre ningun auto con mi diseño.'
           name='Masa Aitaka'
           parrafe='Muy Mala'
-          photo='../src/assets/People/MasaAitaka.webp'
+          photo={Peoplee.MasaAitaka}
         />
         <TestCard
           info='Lo más impresionante es la calidad del automóvil en sí. Estoy verdaderamente impresionado con su rendimiento, comodidad y tecnología avanzada sin necesitar ninguna combinacion de teclas. '
           name='Jarl Cohnson'
           parrafe='Buena'
-          photo='../src/assets/People/JarlCohnson.webp'
+          photo={Peoplee.JarlCohnson}
         />
 
       </div>

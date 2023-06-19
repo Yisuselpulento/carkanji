@@ -1,9 +1,11 @@
+import iconss from '../assets/icons/iconss.js'
+
 export const Icons = ({ img, parrafe, info }) => {
   return (
     <div className='flex gap-3 my-2'>
       <div className='bg-red-300 rounded-full p-2 bg-opacity-20 '>
         <img
-          src={`../src/assets/icons/icon${img}.webp`}
+          src={iconss[`icon${img}`]}
           width={200}
         />
       </div>

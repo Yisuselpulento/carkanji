@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { ButtonDesc } from './ButtonDesc'
 import { Cars } from '../Pages/Helpers/carsName'
 import useModal from '../hooks/useModal'
+import Carss from '../assets/Cars/Carss.js'
 
 export const EnDescuento = () => {
   const { modal, setModal } = useModal()
@@ -15,12 +16,12 @@ export const EnDescuento = () => {
     setNum(1)
   }
   const handleChangeLamborghini = () => {
-    setActualCar('Lamborghini')
+    setActualCar('lamborghini')
     setNum(1)
   }
 
   const handleChangeBmw = () => {
-    setActualCar('BMW')
+    setActualCar('bmw')
     setNum(1)
   }
   const handleChangeAstro = () => {
@@ -33,11 +34,11 @@ export const EnDescuento = () => {
   }
 
   const handleChangeNum = () => {
-    if (actualCar === 'Astron' && num === 1) { setNum(2) } else if (actualCar === 'Audi' && num === 1) { setNum(5) } else if (actualCar === 'Lamborghini' && num === 1) { setNum(8) } else if (actualCar === 'BMW' && num === 1) { setNum(3) } else if (actualCar === 'otros' && num === 1) { setNum(4) } else { setNum(num - 1) }
+    if (actualCar === 'Astron' && num === 1) { setNum(2) } else if (actualCar === 'Audi' && num === 1) { setNum(5) } else if (actualCar === 'lamborghini' && num === 1) { setNum(8) } else if (actualCar === 'bmw' && num === 1) { setNum(3) } else if (actualCar === 'otros' && num === 1) { setNum(4) } else { setNum(num - 1) }
   }
 
   const handleSumNum = () => {
-    if (actualCar === 'Astron' && num === 2) { setNum(1) } else if (actualCar === 'Audi' && num === 5) { setNum(1) } else if (actualCar === 'Lamborghini' && num === 8) { setNum(1) } else if (actualCar === 'BMW' && num === 3) { setNum(1) } else if (actualCar === 'otros' && num === 4) { setNum(1) } else { setNum(num + 1) }
+    if (actualCar === 'Astron' && num === 2) { setNum(1) } else if (actualCar === 'Audi' && num === 5) { setNum(1) } else if (actualCar === 'lamborghini' && num === 8) { setNum(1) } else if (actualCar === 'bmw' && num === 3) { setNum(1) } else if (actualCar === 'otros' && num === 4) { setNum(1) } else { setNum(num + 1) }
   }
 
   useEffect(() => {
@@ -82,7 +83,7 @@ export const EnDescuento = () => {
           <div className='flex flex-col gap-20 items-center'>
             <div className='h-[300px] '>
               <img
-                src={`../src/assets/Cars/${actualCar}${num}.webp`}
+                src={Carss[actualCar + num]}
                 alt='img car'
                 className='w-[500px]'
               />

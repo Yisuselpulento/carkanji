@@ -1,4 +1,5 @@
 import { LayoutPages } from '../Components/LayoutPages'
+import iconss from '../assets/icons/iconss.js'
 
 export const About = () => {
   return (
@@ -7,7 +8,7 @@ export const About = () => {
         <div className='md:p-32 p-7 md:flex my-10 gap-10 justify-center'>
           <div className='md:w-1/2 flex h-[600px]'>
             <img
-              src='../src/assets/icons/mecanico.webp'
+              src={iconss.mecanico}
               alt="'imagen de guerrero"
               width={700}
             />
@@ -23,7 +24,7 @@ export const About = () => {
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
-                    src='../src/assets/icons/icon1.webp'
+                    src={iconss.icon1}
                     width={80}
                   />
                 </div>
@@ -42,7 +43,7 @@ export const About = () => {
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
-                    src='../src/assets/icons/icon2.webp'
+                    src={iconss.icon2}
                     width={80}
                   />
                 </div>
@@ -61,7 +62,7 @@ export const About = () => {
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
-                    src='../src/assets/icons/icon3.webp'
+                    src={iconss.icon3}
                     width={80}
                   />
                 </div>

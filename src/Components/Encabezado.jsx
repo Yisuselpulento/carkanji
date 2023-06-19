@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Carss from '../assets/Cars/Carss.js'
 
 const Encabezado = () => {
   return (
@@ -33,7 +34,7 @@ const Encabezado = () => {
       </div>
 
       <div className='md:w-1/2 '>
-        <img src='src/assets/Cars/CarIntro.webp' alt='Car Intro' width={2200} height={2000} />
+        <img src={Carss.CarIntro} alt='Car Intro' width={2200} height={2000} />
 
       </div>
 

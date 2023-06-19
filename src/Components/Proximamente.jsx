@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Icons } from './Icons'
+import Carss from '../assets/Cars/Carss.js'
 
 export const Proximamente = () => {
   return (
@@ -13,7 +14,7 @@ export const Proximamente = () => {
       <div className='flex
             justify-center'
       >
-        <img src='../src/assets/Cars/WallpaperCamaros.webp' alt='' width={1200} />
+        <img src={Carss.WallpaperCamaros} alt='' width={1200} />
       </div>
 
       <div className='p-16 my-16 md:flex gap-20 '>

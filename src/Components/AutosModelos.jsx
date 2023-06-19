@@ -1,4 +1,5 @@
 import useModal from '../hooks/useModal'
+import Carss from '../assets/Cars/Carss.js'
 
 export const AutosModelos = ({ num, nombre, precio, diesel }) => {
   const { modal, setModal } = useModal()
@@ -7,7 +8,7 @@ export const AutosModelos = ({ num, nombre, precio, diesel }) => {
     <div className=' border rounded shadow-lg '>
       <div>
         <img
-          src={`../src/assets/Cars/Model${num}.webp`} alt={`modelo ${num} de autos`}
+          src={Carss[`Model${num}`]} alt={`modelo ${num} de autos`}
           className='object-conver h-48 w-80'
         />
       </div>
