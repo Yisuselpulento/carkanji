@@ -10,7 +10,7 @@ export const ComponTextimonio = () => {
         <p className='text-gray-500 text-2xl p-2'>Ve los comentarios de nuestros mejores compradores.</p>
 
       </div>
-      <div className='flex flex-wrap gap-10 justify-center pb-16'>
+      <div className='flex flex-wrap gap-10 justify-center pb-16 md:w-[1500px] m-2'>
         <TestCard
           info='Estoy realmente molesta con la empresa de autos. Me siento decepcionada  por la falta de atención al cliente y la falta de transparencia.No encontre ningun auto con mi diseño.'
           name='Masa Aitaka'

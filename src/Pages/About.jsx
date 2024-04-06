@@ -20,12 +20,12 @@ export const About = () => {
               <h1 className='text-5xl font-bold'>Tu sueño comienza en el momento de conocernos</h1>
               <p className='text-gray-600 text-xl '>Nos enorgullece contar con un equipo de ingenieros y diseñadores dedicados que trabajan incansablemente para crear vehículos de calidad y vanguardia. Nuestro compromiso con la excelencia se refleja en cada detalle, desde la selección de materiales hasta la implementación de tecnologías de vanguardia.</p>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex justify-between gap-2'>
               <div className='md:p-8'>
                 <div className='p-2'>
                   <img
                     src={iconss.icon1}
-                    width={80}
+                    width={70}
                   />
                 </div>
                 <div className='flex md:gap-3 items-center'>
@@ -44,7 +44,7 @@ export const About = () => {
                 <div className='p-2'>
                   <img
                     src={iconss.icon2}
-                    width={80}
+                    width={70}
                   />
                 </div>
                 <div className='flex md:gap-3 items-center'>
@@ -63,7 +63,7 @@ export const About = () => {
                 <div className='p-2'>
                   <img
                     src={iconss.icon3}
-                    width={80}
+                    width={70}
                   />
                 </div>
                 <div className='flex md:gap-3 items-center'>

@@ -35,7 +35,7 @@ export const Proximamente = () => {
           </Link>
         </div>
 
-        <div className='md:w-1/2 md:flex flex-col gap-10'>
+        <div className='md:w-1/2 flex flex-col gap-10 '>
           <Icons
             img={4}
             parrafe='Mejores coches'

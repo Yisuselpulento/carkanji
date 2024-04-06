@@ -14,7 +14,7 @@ export const LayoutPages = ({ children, text }) => {
 
       </div>
 
-      <main>
+      <main className='flex items-center justify-center'>
         {children}
       </main>
       <div className='p-16 bg-black  bg-opacity-90 text-center mb-10'>

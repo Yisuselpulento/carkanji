@@ -65,7 +65,7 @@ export const TheModal = () => {
 
   return (
     <form onSubmit={handleformModal}>
-      <div className='flex flex-col gap-7 md:w-[700px] p-5 overflow-y-scroll h-[500px] scrollbar scrollbar-thumb-red-600'>
+      <div className=' flex flex-col gap-7 md:w-[700px] mt-20 md:mt-0 w-[350px] p-5 overflow-y-scroll md:h-full h-[450px]  scrollbar scrollbar-thumb-red-600'>
         <div className='font-bold text-2xl flex justify-between'>
           <h1 className='text-red-600 '>Informacion Personal</h1>
           <button onClick={

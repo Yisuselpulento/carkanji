@@ -6,7 +6,7 @@ export const ModelsCar = () => {
     <LayoutPages
       text='modelos de autos'
     >
-      <div className='p-16 flex flex-wrap justify-center items-center gap-8'>
+      <div className='p-16 flex flex-wrap justify-center items-center gap-8 md:w-[1500px]'>
         <AutosModelos
           num={1}
           nombre='Audi A1'

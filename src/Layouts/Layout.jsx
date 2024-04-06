@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-closing-tag-location */
 import { useState } from 'react'
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet, NavLink, Link } from 'react-router-dom'
 import Modal from 'react-modal'
 import { TheModal } from '../Components/TheModal'
 import useModal from '../hooks/useModal'
@@ -28,13 +28,21 @@ export const Layout = () => {
     setActiveMenu(!activeMenu)
   }
 
+  const navLinks = [
+    { to: '/', text: 'Inicio' },
+    { to: 'about', text: 'About' },
+    { to: 'models', text: 'Modelos' },
+    { to: 'testimonios', text: 'Testimonios' },
+    { to: 'contact', text: 'Contacto' }
+  ]
+
   return (
 
     <div className='text-black text-opacity-80 '>
       {modal && (<Modal isOpen={modal} style={customStyles}><TheModal /></Modal>)}
       <header>
 
-        <nav className='md:flex md:justify-between bg-white items-center shadow-md py-3 px-3 fixed md:static z-10 '>
+        <nav className='md:flex md:justify-between bg-white items-center shadow-md md:py-3 px-3 fixed md:static z-10 '>
           <button
             className='md:hidden m-3'
             onClick={handleMenuActive}
@@ -55,24 +63,17 @@ export const Layout = () => {
           </Link>
 
           <ul className={`${activeMenu ? 'hidden' : 'flex flex-col gap-10 p-5'} md:flex md:gap-5`}>
-            <Link onClick={() => setActiveMenu(true)} className=' py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/'>Home</Link>
-            <Link
-              onClick={() => setActiveMenu(true)}
-              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/about'
-            >About</Link>
-            <Link
-              onClick={() => setActiveMenu(true)}
-              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/models'
-            >ModelsCar</Link>
-            <Link
-              onClick={() => setActiveMenu(true)}
-              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='/testimonios'
-            >Testimonios</Link>
-            <Link
-              onClick={() => setActiveMenu(true)}
-              className='py-1 px-2 rounded-lg text-lg font-bold hover:text-red-600' to='contact'
-            >Contacto</Link>
-
+            {navLinks.map((link, index) => (
+              <li key={index} className='flex justify-center items-center h-[30px] '>
+                <NavLink
+                  to={link.to}
+                  className={({ isActive }) =>
+                    isActive ? 'font-bold bg-red-500  text-white w-full h-full flex items-center md:justify-center md:w-[100px] md:h-[60px] p-5' : 'font-bold text-gray-500 p-5  hover:bg-gray-200  w-full flex items-center md:justify-center md:w-[100px] md:h-[60px]'}
+                >
+                  {link.text}
+                </NavLink>
+              </li>
+            ))}
           </ul>
 
         </nav>
@@ -88,7 +89,7 @@ export const Layout = () => {
           <p>Nuestro compromiso con la excelencia se refleja en cada detalle, desde la selección de materiales hasta la implementación de tecnologías de vanguardia!</p>
         </div>
         <div className='p-10  md:w-1/3 text-white'>
-          <h1 className='text-4xl font-bold uppercase '>Cedes</h1>
+          <h1 className='text-4xl font-bold uppercase '>Sedes</h1>
           <p>Santiago:
             Dirección: Avenida Providencia 1234, Santiago.
             Horarios: Lunes a viernes: 9:00 AM - 7:00 PM; Sábado: 10:00 AM - 4:00 PM.
